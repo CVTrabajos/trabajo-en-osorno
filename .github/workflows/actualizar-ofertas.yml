@@ -23,7 +23,7 @@ jobs:
       - uses: actions/checkout@v4
 
 
-        name: Descargar ofertas desde Apps Script
+      - name: Descargar ofertas desde Apps Script
         env:
           APPS_SCRIPT_URL: "https://script.google.com/macros/s/AKfycbxDq5gOKQcLQsZUFvEzTUSvUs9wZj6E03FdY7QE0I3zhpee7Fe4ED2cUO9IzDOl7i8S4w/exec"
         run: |
